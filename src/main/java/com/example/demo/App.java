@@ -5,8 +5,8 @@ import com.example.demo.model.Greeting;
 public class App {
     public static void main(String[] args) {
         String name = args.length > 0 ? args[0] : "Java Developer";
-        Greeting greeting = new Greeting(name, "Welcome to Java 17");
-        
+        Greeting greeting = new Greeting(name, "Welcome to Java 17 (v2)");
+
         System.out.println("========================================");
         System.out.println(greeting.getFullGreeting());
         System.out.println("========================================");
