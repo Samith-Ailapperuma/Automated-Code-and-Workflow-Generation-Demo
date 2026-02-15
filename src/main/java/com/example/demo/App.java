@@ -5,7 +5,7 @@ import com.example.demo.model.Greeting;
 public class App {
     public static void main(String[] args) {
         String name = args.length > 0 ? args[0] : "Java Developer";
-        Greeting greeting = new Greeting(name, "Welcome to Java 17 (v2) - Workflow Verified!");
+        Greeting greeting = new Greeting(name, "Welcome to Java 17 (v2) - No Trigger Test");
 
         System.out.println("========================================");
         System.out.println(greeting.getFullGreeting());
