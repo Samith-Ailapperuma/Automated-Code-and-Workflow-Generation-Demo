@@ -1,8 +1,0 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!target/*.jar
-.git/
-.gitignore
-.agent/
-.idea/
-*.log
